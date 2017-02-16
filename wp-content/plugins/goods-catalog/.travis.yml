@@ -1,0 +1,14 @@
+language: php
+php:
+- '5.4'
+- '5.5'
+- '5.6'
+- '7.0'
+- hhvm
+- nightly
+script:
+- if find ./ -name "*.php" -exec php -l {} \; | grep "syntax error, unexpected"; then
+  exit 1; fi
+notifications:
+  slack:
+    secure: BL0Ul0qMn12mfDNTQ0CM3uBYUbsrHp3hEs73qwOZuWSu6ZhOKjWAGgwt9caT6M5VOW937ShJcPxTiYYZg2KqWQEIZvcp0ZkwgWl6p1Ya3/uXb6sp4rrd0HpAqJBHs1RqLp4GVnn/tVXvFIZOgE0nTD+7iMAB5QsrZOh/jRn3mbeQWbZzHDDYkqTNzV6hx5U1kuOnzfxWQxXtRZbAx2pZ77O6j6CqJyQ0j6ZBsC5vmQk2ZEtdbEb6RNdtTxRTmBnWQjmBUyX04cFaPHrq7xdqN95Al1MBD7KyfTxcIiyOP9E11sRoEB7kyWALO/S47y+58mHYBp+OD6I5Au+l1UpaljtGxq0T6x3N65hc8t27LsAus3cKM7fwHY4VV37L7AUM4LDgHUN5ZfNNXD3zCRK2dKRvqSfNtHNWwe/49gB0YIjoO++dPbd/8hopNUPYaYpT5tdr16jsfvYKhVndRsjnrMPOBJqB5jGQudVAOIt1owD7OgRw9d31mb83n86MaKH2e8uiH/REtQ8tGM/U8zGt0pUWJYF4JoQlUIFnVS8PSrAJzo5mcC7dhDY+qnlJAMnJhdu/I0igO4ctD8lBeWZ5sFr0jrM0zpu0kojykOd8fw0dv8sqP6SnKxGamHNq88LEvhOQYIQPBCpaLZ/Fncbrk1sAgIVfxON3YgwqA2PwS8A=

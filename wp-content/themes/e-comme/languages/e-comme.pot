@@ -1,0 +1,561 @@
+# Copyright (C) 2016 ThemeFarmer
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: E-Comme 1.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-19 01:08+0530\n"
+"PO-Revision-Date: 2016-07-19 01:08+0530\n"
+"Last-Translator: themefarmer.com \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:21
+msgid "ERROR"
+msgstr ""
+
+#: 404.php:22
+msgid "Page cannot be found"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"The Page you requested is not be found. This could be spelling error in the "
+"url."
+msgstr ""
+
+#: 404.php:24
+msgid "Go back to homepage"
+msgstr ""
+
+#: archive.php:43 index.php:48 search.php:33
+msgid "Previous Posts"
+msgstr ""
+
+#: archive.php:44 index.php:49 search.php:34
+msgid "Next Posts"
+msgstr ""
+
+#: comments.php:2
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:8
+msgid "0 Comment"
+msgstr ""
+
+#: comments.php:8 inc/template-tags.php:43
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:8 inc/template-tags.php:43
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:13
+msgid "Previous Comments"
+msgstr ""
+
+#: comments.php:15
+msgid "Next Comments"
+msgstr ""
+
+#: comments.php:25
+msgid "NAME"
+msgstr ""
+
+#: comments.php:25
+msgid "Full Name"
+msgstr ""
+
+#: comments.php:26
+msgid "EMAIL"
+msgstr ""
+
+#: comments.php:26
+msgid "Your Email Address"
+msgstr ""
+
+#: comments.php:27
+msgid "WEBSITE"
+msgstr ""
+
+#: comments.php:27
+msgid "Website"
+msgstr ""
+
+#: comments.php:35
+msgid "COMMENT"
+msgstr ""
+
+#: comments.php:35
+msgid "Message"
+msgstr ""
+
+#: comments.php:37
+msgid "Logged in as "
+msgstr ""
+
+#: comments.php:37
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:37
+msgid " Log out?"
+msgstr ""
+
+#: comments.php:38
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:40
+msgid "SUBMIT COMMENT"
+msgstr ""
+
+#: comments.php:43
+msgid "Leave Your Comment Here"
+msgstr ""
+
+#: footer.php:20 functions.php:121
+msgid "Footer Widget Area"
+msgstr ""
+
+#: footer.php:22 functions.php:123
+msgid "footer widget area"
+msgstr ""
+
+#: footer.php:36 sidebar.php:26
+msgid "Calendar"
+msgstr ""
+
+#: footer.php:47
+#, php-format
+msgid "Theme by %1$s"
+msgstr ""
+
+#: functions.php:53
+msgid "Primary"
+msgstr ""
+
+#: functions.php:111 sidebar.php:18
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:113 sidebar.php:20
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: header.php:18
+msgid "Skip to content"
+msgstr ""
+
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:4 searchform.php:5
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:5
+msgid "Search "
+msgstr ""
+
+#: sidebar.php:27
+msgid "Search"
+msgstr ""
+
+#: single.php:28
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:29
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:36
+#, php-format
+msgctxt "post author"
+msgid " %s"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgid "0 comment"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:21
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:23
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:25
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:27
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:27
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:29
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:29
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:31
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:31
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:33
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:36
+#, php-format
+msgid "Search Results for : %s"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:38
+msgid "Error 404  : Page Not Found"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:40 inc/themefarmer-breadcrumbs.php:52
+#: inc/themefarmer-functions.php:47
+msgid "Home"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:53
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:54
+#, php-format
+msgid "Archive for \"%s\""
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:55
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:56
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:57
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:58
+msgid "Error 404"
+msgstr ""
+
+#: inc/themefarmer-breadcrumbs.php:179
+msgid "Page"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:19
+msgid "Select Page"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:47
+msgid ""
+"The Pro Version gives you more opportunities to enhance your site and "
+"business. In order to create effective online presence one have to showcase "
+"their wide range of products, have to use contact us enquiry form, have to "
+"make effective about us page, have to introduce team members, etc etc . The "
+"pro version will give it all. Buy the pro version and give us a chance to "
+"serve you better. "
+msgstr ""
+
+#: inc/themefarmer-customizer.php:49
+msgid "UPGRADE  TO PRO "
+msgstr ""
+
+#: inc/themefarmer-customizer.php:61
+msgid "Please create page with featured image to show in select slide dropdown"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:73 inc/themefarmer-customizer.php:113
+msgid "Add More Services Get Pro"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:85 inc/themefarmer-customizer.php:123
+msgid "Add More Slides Get Pro"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:93
+msgid "UPGRADE TO PRO VERSION"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:103
+msgid "Discover E-Comme Pro"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:160
+msgid "Theme Options"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:161
+msgid "Here you can customize theme data"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:167
+msgid "Top Bar Settings"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:186
+msgid "Open social links in new tab"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:202
+msgid "Facebook Page URL"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:218
+msgid "Google Page URL"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:234
+msgid "Youtube Page URL"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:249
+msgid "Twitter Page URL"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:264
+msgid "Linkedin Page URL"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:279
+msgid "Top Bar Email"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:294
+msgid "Top Bar Phone"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:302
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:313
+msgid "Slider Documentation"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:319
+msgid "Slider One Settings"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:329
+msgid "Slide One Page"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:335
+msgid "Slider Two Settings"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:345
+msgid "Slide Two Page"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:350
+msgid "Slider Three Settings"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:360
+msgid "Slide Three Page"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:365
+msgid "Slider Button"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:369 inc/themefarmer-variables.php:27
+msgid "Click To Begin"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:380
+msgid "Button Text"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:395
+msgid "Button Link"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:404
+msgid "Latest Blog Settings"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:412
+msgid "Latest Blog"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:423 inc/themefarmer-customizer.php:465
+msgid "Heading"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:428 inc/themefarmer-variables.php:32
+msgid "Be updated with latest news"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:439 inc/themefarmer-customizer.php:481
+msgid "Description"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:446
+msgid "CTA Settings"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:454 inc/themefarmer-variables.php:34
+msgid "Call Out Section"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:470 inc/themefarmer-variables.php:35
+msgid ""
+"We are a group of passionate designers and developers who really love to "
+"create awesome WordPress themes & support."
+msgstr ""
+
+#: inc/themefarmer-customizer.php:487 inc/themefarmer-variables.php:37
+msgid "Register Now"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:498
+msgid "Button One Text"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:514
+msgid "Button One URL"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:520
+msgid "View Course"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:531
+msgid "Button Two Text"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:547
+msgid "Button Two URL"
+msgstr ""
+
+#: inc/themefarmer-functions.php:131
+msgid "Reply"
+msgstr ""
+
+#: inc/themefarmer-functions.php:146
+msgid "at"
+msgstr ""
+
+#: inc/themefarmer-functions.php:152
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/themefarmer-variables.php:19
+msgid "Slide One Title"
+msgstr ""
+
+#: inc/themefarmer-variables.php:19
+msgid "Slide One Description"
+msgstr ""
+
+#: inc/themefarmer-variables.php:20
+msgid "Slide Two Title"
+msgstr ""
+
+#: inc/themefarmer-variables.php:20
+msgid "Slide Two Description"
+msgstr ""
+
+#: inc/themefarmer-variables.php:21
+msgid "Slide Three Title"
+msgstr ""
+
+#: inc/themefarmer-variables.php:21
+msgid "Slide Three Description"
+msgstr ""
+
+#: inc/themefarmer-variables.php:31
+msgid "Latest News"
+msgstr ""
+
+#: inc/themefarmer-variables.php:39
+msgid "Purchase Now"
+msgstr ""
+
+#: template-parts/content-home.php:24 template-parts/content-index.php:25
+#: template-parts/content-search.php:25
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:23
+#: template-parts/content.php:37
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-single.php:28 template-parts/content.php:42
+msgid "Pages:"
+msgstr ""
