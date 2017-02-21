@@ -67,6 +67,12 @@ View the theme settings under "Appearance" -> Customize.
 
 == Changelog ==
 
+#### 1.3.04
+* Styling tweaks/fixes
+* Updated language.pot file
+Premium: Added social link for Yelp
+Premium: Added setting for any social network required
+
 #### 1.3.03
 * Customizer javascript fix
 * Added help for setting up Default Slider

@@ -4,7 +4,7 @@
  *
  * @package Vogue
  */
-define( 'VOGUE_THEME_VERSION' , '1.3.03' );
+define( 'VOGUE_THEME_VERSION' , '1.3.04' );
 
 // Get help / Premium Page
 require get_template_directory() . '/upgrade/upgrade.php';
@@ -33,7 +33,7 @@ if ( ! function_exists( 'vogue_setup' ) ) :
  * as indicating support for post thumbnails.
  */
 function vogue_setup() {
-
+	
 	/**
 	 * Set the content width based on the theme's design and stylesheet.
 	 */
@@ -83,7 +83,7 @@ function vogue_setup() {
 	add_theme_support( 'html5', array(
 		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption',
 	) );
-
+	
 	// The custom header is used for the logo
 	add_theme_support( 'custom-header', array(
         'default-image' => '',
@@ -99,7 +99,7 @@ function vogue_setup() {
 		'default-color' => 'F9F9F9',
 		'default-image' => '',
 	) ) );
-
+	
 	add_theme_support( 'woocommerce' );
 }
 endif; // vogue_setup
@@ -120,7 +120,7 @@ function vogue_widgets_init() {
 		'before_title'  => '<h3 class="widget-title">',
 		'after_title'   => '</h3>',
 	) );
-
+	
 	register_sidebar(array(
 		'name' => __( 'Vogue Footer Standard', 'vogue' ),
 		'id' => 'vogue-site-footer-standard',
@@ -135,32 +135,32 @@ add_action( 'widgets_init', 'vogue_widgets_init' );
 function vogue_scripts() {
 	wp_enqueue_style( 'vogue-body-font-default', '//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic', array(), VOGUE_THEME_VERSION );
 	wp_enqueue_style( 'vogue-heading-font-default', '//fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic', array(), VOGUE_THEME_VERSION );
-
+	
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri().'/includes/font-awesome/css/font-awesome.css', array(), '4.6.3' );
 	wp_enqueue_style( 'vogue-style', get_stylesheet_uri(), array(), VOGUE_THEME_VERSION );
-
+	
 	if ( get_theme_mod( 'vogue-header-layout' ) == 'vogue-header-layout-three' ) :
 		wp_enqueue_style( 'vogue-header-style-three', get_template_directory_uri().'/templates/css/header-three.css', array(), VOGUE_THEME_VERSION );
 	else :
 		wp_enqueue_style( 'vogue-header-style-one', get_template_directory_uri().'/templates/css/header-one.css', array(), VOGUE_THEME_VERSION );
 	endif;
-
+	
 	if ( vogue_is_woocommerce_activated() ) :
 		wp_enqueue_style( 'vogue-standard-woocommerce-style', get_template_directory_uri().'/templates/css/woocommerce-standard-style.css', array(), VOGUE_THEME_VERSION );
 	endif;
-
+	
 	if ( get_theme_mod( 'vogue-footer-layout', false ) == 'vogue-footer-layout-standard' ) :
 	    wp_enqueue_style( 'vogue-footer-standard-style', get_template_directory_uri().'/templates/css/footer-standard.css', array(), VOGUE_THEME_VERSION );
 	else :
 		wp_enqueue_style( 'vogue-footer-social-style', get_template_directory_uri().'/templates/css/footer-social.css', array(), VOGUE_THEME_VERSION );
 	endif;
-
+	
 	wp_enqueue_style( 'vogue-footer-social-style', get_template_directory_uri().'/templates/css/footer-social.css', array(), VOGUE_THEME_VERSION );
 
 	wp_enqueue_script( 'caroufredsel', get_template_directory_uri() . '/js/jquery.carouFredSel-6.2.1-packed.js', array('jquery'), VOGUE_THEME_VERSION, true );
-
+	
 	wp_enqueue_script( 'vogue-customjs', get_template_directory_uri() . '/js/custom.js', array('jquery'), VOGUE_THEME_VERSION, true );
-
+	
 	wp_enqueue_script( 'vogue-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), VOGUE_THEME_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -222,7 +222,7 @@ function vogue_set_blog_queries( $query ) {
     if ( get_theme_mod( 'vogue-blog-cats', false ) ) {
         $blog_query_set = get_theme_mod( 'vogue-blog-cats' );
     }
-
+    
     if ( $blog_query_set ) {
         // do not alter the query on wp-admin pages and only alter it if it's the main query
         if ( !is_admin() && $query->is_main_query() ){
@@ -252,18 +252,18 @@ add_filter( 'widget_categories_args', 'vogue_exclude_slider_categories_widget' )
  */
 function vogue_add_blog_post_classes ( $classes ) {
 	global $current_class;
-
+	
 	if ( is_home() || is_archive() || is_search() ) :
 		$vogue_blog_layout = sanitize_html_class( 'blog-left-layout' );
 		if ( get_theme_mod( 'vogue-blog-layout' ) ) {
 		    $vogue_blog_layout = sanitize_html_class( get_theme_mod( 'vogue-blog-layout' ) );
 		}
 		$classes[] = $vogue_blog_layout;
-
+		
 		$classes[] = $current_class;
 		$current_class = ( $current_class == 'blog-alt-odd' ) ? sanitize_html_class( 'blog-alt-even' ) : sanitize_html_class( 'blog-alt-odd' );
 	endif;
-
+	
 	return $classes;
 }
 global $current_class;
@@ -275,13 +275,13 @@ add_filter ( 'post_class' , 'vogue_add_blog_post_classes' );
  */
 function vogue_add_admin_body_class() {
 	$vogue_admin_class = '';
-
+	
 	if ( get_theme_mod( 'vogue-footer-layout' ) ) {
 		$vogue_admin_class = sanitize_html_class( get_theme_mod( 'vogue-footer-layout' ) );
 	} else {
 		$vogue_admin_class = sanitize_html_class( 'vogue-footer-layout-social' );
 	}
-
+	
 	return $vogue_admin_class;
 }
 add_filter( 'admin_body_class', 'vogue_add_admin_body_class' );
@@ -352,7 +352,7 @@ add_filter( 'manage_edit-category_columns', 'vogue_edit_cat_columns' );
  * Print the ID column
  */
 function vogue_cat_custom_columns( $value, $name, $cat_id ) {
-    if( 'cat_id' == $name )
+    if( 'cat_id' == $name ) 
         echo $cat_id;
 }
 add_filter( 'manage_category_custom_column', 'vogue_cat_custom_columns', 10, 3 );
@@ -372,35 +372,3 @@ function vogue_cat_columns_array_push_after( $src, $vogue_cat_in, $pos ) {
     }
     return $R;
 }
-
-
-function remove_loop_button(){
- remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10 );
- }
- add_action('init','remove_loop_button');
-
-function contactus(){
-	require_once 'contactus.php';
-}
-
-add_shortcode( 'contactus', 'contactus' );
-
-function mision_vision(){
-	require_once 'misionVision.php';
-}
-add_shortcode('mision_vision','mision_vision');
-
-function slider(){
-	require_once 'slider.php';
-}
-add_shortcode('slider','slider');
-
-function footer(){
-	require_once 'footer2.php';
-}
-add_shortcode('footer','footer');
-
-function productosVendidos(){
-	require_once 'productosVendidos.php';
-}
-add_shortcode('productosVendidos','productosVendidos');

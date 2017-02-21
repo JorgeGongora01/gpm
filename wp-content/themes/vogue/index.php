@@ -43,9 +43,9 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+	
     <?php get_sidebar(); ?>
-
+    
     <div class="clearboth"></div>
-
+	
 <?php get_footer(); ?>

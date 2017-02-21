@@ -1,4 +1,4 @@
-<link href="/wp-content/themes/vogue/footer2.css" rel="stylesheet">
+<link href="/wp-content/themes/vogue/footer.css" rel="stylesheet">
 <!--footer start from here-->
 <footer style="padding-left:0px">
   <div class="container">

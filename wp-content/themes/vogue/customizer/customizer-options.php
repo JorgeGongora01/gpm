@@ -70,7 +70,7 @@ function customizer_library_vogue_options() {
         'id' => 'vogue-upsell-layout',
         'section' => $section,
         'type'    => 'upsell',
-        'description' => __( '<b>Premium Extra Features:</b><br />- Site Boxed / Full Width layouts<br />- Page Featured Image displayed as full width banner<br />- Adjust website width<br /><br />- Set WooCommerce page to full width<br />- Set WooCommerce archive & single pages to full width', 'vogue' )
+        'description' => __( '<b>Premium Extra Features:</b><br />- Site Boxed / Full Width layouts<br />- Remove Page Titles<br />- Page Featured Image displayed as full width banner<br />- Adjust website width<br /><br />- Set WooCommerce page to full width<br />- Set WooCommerce archive & single pages to full width', 'vogue' )
     );
     
     
@@ -512,7 +512,7 @@ function customizer_library_vogue_options() {
         'id' => 'vogue-upsell-social',
         'section' => $section,
         'type'    => 'upsell',
-        'description' => __( '<b>Premium Extra Features:</b><br />- Over 15 different social profile links available<br />- Let us know which links you need and we\'ll add it!', 'vogue' )
+        'description' => __( '<b>Premium Extra Features:</b><br />- Over 22 different social profile links available<br />- Setting to add any required social icon<br />- Or let us know which links you need and we\'ll add it!', 'vogue' )
     );
 	
 
