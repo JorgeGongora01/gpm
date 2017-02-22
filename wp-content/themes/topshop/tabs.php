@@ -1,6 +1,22 @@
 
 <div>
-<h2>Nuestros productos</h2>
+  <h2>Promociones</h2>
+  <!-- Nav tabs -->
+  <div class="row">
+  <div class="col-md-12">
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#promociones" aria-controls="promociones" role="tab" data-toggle="tab" class="promotion">Promociones</a></li>
+  </ul>
+  </div>
+  </div>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="promociones">[bestselling_product_categories cats="44" per_cat="5" columns="3"]</div>
+  </div>
+</div>
+  
+<div>
+<h2>Nuestros productos más vendidos</h2>
   <!-- Nav tabs -->
   <div class="row">
   <div class="col-md-12">

@@ -16,14 +16,14 @@
       </div>
     </div>
     <div class="item">
-      <img src="/wp-content/themes/topshop/images/gpmslider3.jpg" alt="gpm_slider">
+      <img src="/wp-content/themes/topshop/images/gpmslider1.jpg" alt="gpm_slider">
       <div class="carousel-caption">
         <h3>Lorem ipsum dolor sit amet</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       </div>
     </div>
     <div class="item">
-      <img src="/wp-content/themes/topshop/images/gpmslider2.jpg" alt="gpm_slider">
+      <img src="/wp-content/themes/topshop/images/gpmslider44.jpg" alt="gpm_slider">
       <div class="carousel-caption">
         <h3>Lorem ipsum dolor sit amet</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>

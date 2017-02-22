@@ -50,9 +50,9 @@
     </div>
     <div class="col-md-6">
       <ul class="bottom_ul">
-        <li><a href="http://gpm/">gpmuniformes.com</a></li>
-        <li><a href="http://gpm/about-us/">Nosotros</a></li>
-        <li><a href="http://gpm/contact-us/">Contactanos </a></li>
+        <li><a href="/index.php/">gpmuniformes.com</a></li>
+        <li><a href="/about-us/">Nosotros</a></li>
+        <li><a href="/contact-us/">Contactanos </a></li>
       </ul>
     </div>
   </div>
