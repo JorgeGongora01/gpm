@@ -347,3 +347,8 @@ function mision_vision(){
 }
 add_shortcode('mision_vision','mision_vision');
 
+add_filter( 'woocommerce_product_tabs', 'remove_additional_info_tab', 50 );
+function remove_additional_info_tab( $tabs ) {
+    unset( $tabs['additional_information'] );
+    return $tabs;
+}
